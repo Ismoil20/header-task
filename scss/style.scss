@@ -22,7 +22,7 @@ body {
     width: 153.6rem;
     z-index: 0;
     nav {
-      width: 100%;
+      max-width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -250,22 +250,22 @@ main {
   display: none;
 }
 
-@media (max-width: 1184px) {
+@media (max-width: 1284px) {
   html {
     font-size: 54%;
   }
 }
-@media (max-width: 1040px) {
+@media (max-width: 1140px) {
   html {
     font-size: 48%;
   }
 }
-@media (max-width: 915px) {
+@media (max-width: 960px) {
   html {
     font-size: 40%;
   }
 }
-@media (max-width: 840px) {
+@media (max-width: 800px) {
   html {
     font-size: 56%;
   }
@@ -338,13 +338,19 @@ main {
   .open {
     transform: translateX(20%);
   }
+  .modal {
+    padding: 3rem 4rem;
+    h2 {
+      font-size: 30px;
+    }
+  }
 }
-@media (max-width: 660px) {
+@media (max-width: 770px) {
   html {
     font-size: 56%;
   }
   nav .container {
-    width: 73rem !important;
+    max-width: 90% !important;
   }
   .navTop {
     zoom: 0.4;
@@ -371,21 +377,29 @@ main {
   .imgPart {
     margin-top: 14rem;
   }
+  .modal {
+    padding: 3rem 4rem;
+    h2 {
+      font-size: 30px;
+    }
+  }
 }
 @media (max-width: 530px) {
   html {
     font-size: 50%;
   }
   nav .container {
-    width: 63rem !important;
+    max-width: 90% !important;
   }
   .navTop {
     zoom: 0.4;
   }
   .navBottom .logo {
     max-width: 40%;
-    padding: 2.8rem 4rem;
-    right: 16%;
+    padding: 2.8rem 3rem;
+    left: 42%;
+    // width: 80px;
+    height: 60px;
   }
   main .container {
     margin-right: 100px;
