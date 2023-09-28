@@ -363,7 +363,7 @@ main {
   }
   .navBottom .logo {
     padding: 2.4rem 2.2rem;
-    top: -1%;
+    top: -1.05px;
     max-width: 40%;
   }
   main .container {
@@ -384,7 +384,7 @@ main {
     }
   }
 }
-@media (max-width: 530px) {
+@media (max-width: 550px) {
   html {
     font-size: 50%;
   }
@@ -397,12 +397,12 @@ main {
   .navBottom .logo {
     max-width: 40%;
     padding: 2.8rem 3rem;
-    left: 42%;
+    left: 47%;
     // width: 80px;
-    height: 60px;
+    height: 55px;
   }
   main .container {
-    margin-right: 100px;
+    margin-right: 50px;
   }
   .imgPart {
     margin-right: 350px;
@@ -421,7 +421,15 @@ main {
       font-size: 18px;
     }
     a {
-      font-size: 20px;
+      font-size: 18px;
     }
+  }
+  .navBottom {
+    font-size: 5px;
+    height: 50px;
+  }
+  .navBottom .downloud {
+    display: block;
+    font-size: 1.4rem;
   }
 }
