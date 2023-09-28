@@ -304,12 +304,12 @@ main .container {
     font-size: 1.6rem;
   }
   .navBottom .bars {
-    font-size: 3rem;
+    font-size: 2rem;
     display: block;
     margin-right: 10rem;
   }
   .modal {
-    width: 64.5rem;
+    max-width: 90%;
   }
   .barsMenu {
     display: flex;
@@ -383,7 +383,7 @@ main .container {
     margin-top: 14rem;
   }
   .modal {
-    padding: 3rem 4rem;
+    padding: 3rem 3rem;
   }
   .modal h2 {
     font-size: 30px;
@@ -415,8 +415,7 @@ main .container {
     right: 200px;
   }
   .modal {
-    width: 40rem;
-    height: 50rem;
+    max-width: 90%;
   }
   .modal h2 {
     font-size: 20px;
@@ -425,11 +424,18 @@ main .container {
     font-size: 18px;
   }
   .modal a {
-    font-size: 18px;
+    font-size: 10px;
+  }
+  .modal a:nth-child(3) {
+    padding: 1rem;
+    font-size: 2rem;
   }
   .navBottom {
     font-size: 5px;
     height: 50px;
+  }
+  .navBottom .leftPrt {
+    margin-left: 2.5rem;
   }
   .navBottom .downloud {
     display: block;
